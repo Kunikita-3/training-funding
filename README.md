@@ -14,6 +14,6 @@ Linux前提。Windowsは知らない。
 ### ローカル実行
 
 PostgreSQLがlocalhost:5432で起動していること前提。  
-プロジェクトルートで以下コマンドを実行
+プロジェクトルートで以下コマンドを実行  
 Linux前提。Windowsは知らない。  
 `gradlew bootrun`
