@@ -1,6 +1,6 @@
 # training-funding
 
-## Getting Start
+## Getting Started
 
 ### ビルド
 
