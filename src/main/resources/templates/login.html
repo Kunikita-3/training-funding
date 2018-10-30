@@ -1,5 +1,7 @@
 <!DOCTYPE html>
-<html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org"
+      xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity3">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,12 +9,12 @@
     <link rel="stylesheet" href="stylesheet.css">
     <link rel="stylesheet" href="responsive.css">
   </head>
-  
+
   <body>
     <header>
       <div class="container">
         <div class="header-left">
-			<! img class="logo" src="..\images\Pro-SPIRE_logo.jpg">
+			<! img class="logo" src="images/Pro-SPIRE_logo.jpg">
 			<label>Training Funding</label>
         </div>
 
@@ -30,7 +32,7 @@
         <p>Training Fundingとは、従業員自らが企画するスキルトレーニングに対し</p>
         <p>「支援者の募集」「トレーニング内容の承認」「実施状況の可視化」を可能にする制度です。</p>
 		<p>相互支援をすることで、自己啓発トレーニングを促進していきましょう。</p>
-        <div class="btn-wrapper">	
+        <div class="btn-wrapper">
 		  <div class="lesson">
 		  	<h4>Login ID</h4>
 			<input type="text" value="" placeholder="社員コード" >
@@ -38,14 +40,14 @@
           <div class="lesson">
 		  	<h4>Password</h4>
 			<input type="text" value="" placeholder="パスワード" >
-     	  	<a href="#" class="btn login">ログイン</a>		
-		</div>  
+     	  	<a href="#" class="btn login">ログイン</a>
+		</div>
         </div>
       </div>
     </div>
     <footer>
       <div class="container">
-		<img class="logo" src="..\images\Pro-SPIRE_logo.jpg">
+		<img class="logo" src="images/Pro-SPIRE_logo.jpg">
         <p>Produced by "30'th Junior Board"</p>
       </div>
     </footer>
