@@ -1,4 +1,4 @@
-package jp.co.prospire.trainingfunding.trainingfunding;
+package jp.co.prospire.trainingfunding;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

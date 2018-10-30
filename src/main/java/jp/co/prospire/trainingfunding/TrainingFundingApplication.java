@@ -1,4 +1,4 @@
-package jp.co.prospire.trainingfunding.trainingfunding;
+package jp.co.prospire.trainingfunding;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

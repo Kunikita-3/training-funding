@@ -1,4 +1,4 @@
-package jp.co.prospire.trainingfunding.trainingfunding.config;
+package jp.co.prospire.trainingfunding.config;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.ViewControllerRegistry;

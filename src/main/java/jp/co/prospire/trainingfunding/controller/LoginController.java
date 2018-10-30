@@ -1,4 +1,4 @@
-package jp.co.prospire.trainingfunding.trainingfunding.controller;
+package jp.co.prospire.trainingfunding.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
