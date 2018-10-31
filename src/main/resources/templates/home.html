@@ -38,6 +38,45 @@
             </tr>
         </tbody>
     </table>
+    <h2>T_TF_USERの中身をpostgresから取得</h2>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>ユーザーID</th>
+                <th>性（日本語）</th>
+                <th>名（日本語）</th>
+                <th>性（英語）</th>
+                <th>名（英語）</th>
+                <th>メールアドレス</th>
+                <th>パスワード</th>
+                <th>アカウント分類ID</th>
+                <th>社員番号</th>
+                <th>削除フラグ</th>
+                <th>登録年月日</th>
+                <th>登録ユーザーID</th>
+                <th>更新年月日</th>
+                <th>更新ユーザーID</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr th:if="tfUserList" th:each="tfUser: ${tfUserList}" th:object="${tfUser}">
+                <td th:text="*{userId}"></td>
+                <td th:text="*{usrNmSeiJ}"></td>
+                <td th:text="*{usrNmMeiJ}"></td>
+                <td th:text="*{usrNmSeiE}"></td>
+                <td th:text="*{usrNmMeiE}"></td>
+                <td th:text="*{email}"></td>
+                <td th:text="*{pwd}"></td>
+                <td th:text="*{accountClassId}"></td>
+                <td th:text="*{empNo}"></td>
+                <td th:text="*{delFlg}"></td>
+                <td th:text="*{regYmd}"></td>
+                <td th:text="*{regUsrId}"></td>
+                <td th:text="*{updYmd}"></td>
+                <td th:text="*{updUsrId}"></td>
+            </tr>
+        </tbody>
+    </table>
 </div>
 </body>
 </html>
